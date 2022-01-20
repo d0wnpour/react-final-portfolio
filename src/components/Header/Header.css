@@ -1,0 +1,20 @@
+.cont{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.cont a {
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 1024px){
+    .cont{
+        position: static;
+        left: 0;
+        top: 0;
+        transform: translate(0)
+    }
+}
